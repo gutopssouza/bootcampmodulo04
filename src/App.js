@@ -1,8 +1,10 @@
 import React from "react";
 import "./App.css";
 
+import banner from "./assets/testebannermeetapp.jpg";
+
 function App() {
-  return <h1>Hello BrickLabs</h1>;
+  return <img src={banner} />;
 }
 
 export default App;
